@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.3KvduYEOWtJ2aEMfkD4WAAHaHa?w=600&h=600&rs=1&pid=ImgDetMain" type="image/x-icon">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="container">
+        <div class="heading">
+            <h1>📒Survey Form</h1>
+        </div>
+        <div class="form">
+            <form action="mailto:imauspicious@gmail.com" method="post" enctype="text/plain">
+                <label for="name">First Name</label><br>
+                <input type="text" name="name" id="name" autocomplete  required size="35px"><br>
+                <label for="name">Last Name</label><br>
+                <input type="text" id="name" name="name" autocomplete required size="35px"><br>
+                <label for="age">Age</label><br>
+                <input type="number" id="age" max="99" min="10" required ><br>
+                <label for="email">E-mail</label><br>
+                <input type="email" id="email" autocomplete required size="35px"><br>
+                <label for="role">Which option best describe you</label><br>
+                <select name="role" id="role" required>
+                    <option value="student">Student</option>
+                    <option value="ug">Under graduate</option>
+                    <option value="p.g">Post graduate</option>
+                    <option value="employed">Employed</option>
+                    <option value="freelancer">Freelancer</option>
+                    <option value="ui/ux">Ui/Ux</option>
+                    <option value="backend-developer">Backend-developer</option>
+                    <option value="web-dev">Web-developer</option>
+                    <option value="full-stack">Full-Stack</option>
+                </select><br>
+                <label for="language">Languages and framework you Know?</label><br>
+                <input type="checkbox" id="language" value="C"><span>C</span><br>
+                <input type="checkbox" id="language" value="C"><span>C++</span><br>
+                <input type="checkbox" id="language" value="C"><span>java</span><br>
+                <input type="checkbox" id="language" value="C"><span>javascript</span><br>
+                <input type="checkbox" id="language" value="C"><span>Html</span><br>
+                <input type="checkbox" id="language" value="C"><span>css</span><br>
+                <input type="checkbox" id="language" value="C"><span>Python</span><br>
+                <input type="checkbox" id="language" value="C"><span>Django</span><br>
+                <input type="checkbox" id="language" value="C"><span>react</span><br>
+                <input type="checkbox" id="language" value="C"><span>typescript</span><br>
+                <input type="checkbox" id="language" value="C"><span>Spring</span><br>
+                <input type="checkbox" id="language" value="C"><span>Angular</span><br>
+                <label for="comment"> Any comments or suggestion</label><br>
+                <textarea name="comment" id="comment" cols="30" rows="3" required>Feedback</textarea><br>
+                <button type="submit" value="submit" action="mailto:imauspicious@gmail.com">
+                    Submit
+                </button>
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
